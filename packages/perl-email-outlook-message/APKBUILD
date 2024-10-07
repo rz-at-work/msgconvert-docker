@@ -15,7 +15,7 @@ makedepends="perl-dev perl-module-build perl-module-build"
 subpackages="$pkgname-doc"
 source=""
 _giturl="https://github.com/mvz/email-outlook-message-perl.git"
-_gitrev="60ffc6e42f9bb4b21ef9d559029fd533e1d13c35"
+_gitrev="c826642a742b06cd968c655702bc92665bff0a48"
 builddir="$srcdir/$_pkgreal-$pkgver"
 
 prepare() {
