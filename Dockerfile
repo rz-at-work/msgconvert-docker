@@ -1,4 +1,4 @@
-FROM alpine:3.19 as alpine-upgrader
+FROM alpine:3.20 as alpine-upgrader
 RUN apk upgrade --no-cache
 
 FROM scratch as alpine-upgraded
