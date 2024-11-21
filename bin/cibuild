@@ -6,4 +6,3 @@ ${PYTHON38:-python3.8} -m venv ./venv
 
 pip install pytest requests
 pytest
-
